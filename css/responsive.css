@@ -19,7 +19,7 @@
 }
 
 
-@media(max-width : 900px){
+@media(max-width : 520px){
     body{
         background-color: white;
     }
