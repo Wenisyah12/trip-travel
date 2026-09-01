@@ -1,5 +1,5 @@
 const swiper = new Swiper('.swiper',{
-    slidePerview: 1,
+    slidesPerview: 1,
     effect: "creative",
     creativeEffect:{
         prev: {
