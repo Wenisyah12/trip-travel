@@ -89,8 +89,12 @@
     }
    
     /*about*/
+    .agency-left-side{
+        margin-top: 10rem;
+    }
+
     .headings{
-        margin-top: 12rem;
+        margin-top: 5rem;
     }
     .about-content-wrapper{
         grid-template-columns: repeat(1, 1fr);
