@@ -60,6 +60,10 @@
     nav ul li:hover::before{
         width: 20%;
     }
+    .swiper{
+        height: 100vh;
+    }
+
     .img-overlay p{
         letter-spacing: 4px;
     }
