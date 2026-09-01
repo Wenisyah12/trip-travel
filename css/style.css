@@ -183,7 +183,7 @@ main {
     font-size: 1rem;
     letter-spacing: 8px;
     color: var(--white-color);
-    animation: animate 4s forwards;
+    animation: animate 2s forwards;
 }
 
 .img-overlay h2{
@@ -191,7 +191,7 @@ main {
     color: var(--white-color);
     text-transform: uppercase;
     letter-spacing: 8px;
-    animation: animate 4s forwards;
+    animation: animate 2s forwards;
     transition: all 0.5s ease-in-out;
 }
 
@@ -220,7 +220,7 @@ main {
     70%{
         opacity: 0.5;
     }
-    70%{
+    100%{
         opacity: 1;
         transform: translateX(-0%);
     }
