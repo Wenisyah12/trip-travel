@@ -4,7 +4,7 @@
 
     }
     .swiper{
-        height: 100vh;
+        height: 90vh;
     }
     .img-overlay p{
         letter-spacing: 6px;
@@ -20,6 +20,9 @@
 
 
 @media(max-width : 900px){
+    body{
+        background-color: white;
+    }
     .btn{
         display: block;
     }
@@ -61,7 +64,7 @@
         width: 20%;
     }
     .swiper{
-        height: 70vh;
+        height: 100vh;
     }
     .img-overlay p{
         letter-spacing: 4px;
@@ -74,19 +77,21 @@
     /*search*/
     #location-search{
         transform: translateY(0%);
-        margin: 2rem 0;
+        margin: -10rem 0;
         width: 100%;
         max-height: 80%;
         align-items: center;
-        background-color: transparent;
     }
     form{
         flex-direction: column;
         gap: 1rem;
         display: flex;
     }
-    
+   
     /*about*/
+    .headings{
+        margin-top: 12rem;
+    }
     .about-content-wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
