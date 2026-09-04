@@ -1,18 +1,19 @@
 const menus = document.querySelector("nav ul");
 const header = document.querySelector("header");
-const menuBtn = document.querySelector(".menu-btn");
-const closeBtn = document.querySelector(".close-btn");
-
-
-menuBtn.addEventListener("click", () => {
-    menus.classList.add("display");
-});
-
-closeBtn.addEventListener("click", () => {
+const menuBtn = document.querySelector("#menu-icon");
+const closeBtn = document.querySelector("#close-btn");
+menuBtn.onclick = () => {
+    menus.classList.toggle("display");
+};
+closeBtn.onclick = () => {
     menus.classList.remove("display");
+}
+const navLinks = document.querySelectorAll("nav ul li a");
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        menus.classList.remove("display");
+    });
 });
-
-//scroll sticky navbar
 window.addEventListener("scroll", () => {
 if (document.documentElement.scrollTop > 20){
     header.classList.add('sticky');
@@ -39,6 +40,6 @@ function updateCounter(counter) {
         counter.textContent = Math.ceil(currentNum + increment);
         setTimeout(() => updateCounter(counter), 70);
     } else {
-        counter.textContent = target;
+        counter.textContent = dataceil;
     }
 }

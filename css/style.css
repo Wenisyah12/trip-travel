@@ -270,7 +270,7 @@ form input, select{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 3rem;
-    margin: 3rem 0;
+    margin-top:6rem;
 }
 
 .about-content-wrapper h2 span{
@@ -382,8 +382,9 @@ form input, select{
 .hidden-content{
     color: var(--white-color);
     padding: 0.9rem 2rem;
-    transform: translateY(120%);
-    transition: all 0.5s ease-in-out;
+    transform: translateY(200%);
+    transition: all 0.7s ease-in-out;
+    
 }
 
 .hidden-content i{
@@ -755,6 +756,8 @@ form input, select{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     border: 1px solid var(--light-gray-color);
+    border-radius: 5px;
+    margin-top: 3.5rem;
 }
 
 .ft-content{

@@ -20,9 +20,17 @@
 
 
 @media(max-width : 520px){
+    
     .btn{
         display: block;
     }
+    #menu-icon{
+        display: block;
+    }
+    #close-btn{
+        display:flex;
+        justify-content: flex-end;
+}
     nav ul{
         flex-direction: column;
         position: fixed;
@@ -42,12 +50,6 @@
 
     }
 
-    .close-btn{
-        position: absolute;
-        top: 0rem;
-        right: 0;
-        margin: 25px;
-    }
     nav ul.display {
         top: 0;
         transition: all 0.5s ease-in-out;
@@ -88,7 +90,7 @@
    
     /*about*/
     .agency-left-side{
-        margin-top: 3.5rem;
+        margin-top: 1.5rem;
     }
 
     .headings{
@@ -110,6 +112,9 @@
     /*place*/
     .choose-wrapper{
         grid-template-columns: 1fr;
+    }
+    .container p{
+        margin-top: 1.7rem;
     }
 
     .row-wise-img{
